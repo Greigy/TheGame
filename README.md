@@ -1,4 +1,6 @@
 TheGame
 =======
 
-Development
+In Development
+
+&copy; Mythic Productions 2012
