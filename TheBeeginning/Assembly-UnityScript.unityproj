@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enviroment\randomSkybox.js" />
+     <Compile Include="Assets\Scripts\Main Menu\FloatingPlatform.js" />
      <Compile Include="Assets\Scripts\Main Menu\characterCreation.js" />
      <Compile Include="Assets\Scripts\Main Menu\mainMenu1.js" />
      <Compile Include="Assets\Scripts\MouseOrbit.js" />
