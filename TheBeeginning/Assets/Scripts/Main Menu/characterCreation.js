@@ -7,8 +7,12 @@ private var scrollPosition1 : Vector2 = Vector2.zero;
 private var userName : String;
 private var raceTraits : String;
 private var history : String;
+private var toggleState : boolean;
 // control vars
 var state : boolean = true;
+// objects
+var pivot : Transform;
+var yAngle : float;
 
 function Start () {
 	screenX = Screen.width;
@@ -36,10 +40,17 @@ function OnGUI () {
 			scrollPosition = GUI.BeginScrollView (Rect (10, 5, 110, screenY - 25), scrollPosition, Rect (0, 0, 90, 835), false, true);			
 			
 				
+				toggleState = GUI.Toggle( Rect ( 0, 5, 90, 90), toggleState, "Hyperion");
 				
-				if (GUI.Button( Rect ( 0, 5, 90, 90), "Hyperion"))	
+				// if (GUI.Button( Rect ( 0, 5, 90, 90), "Hyperion"))
+				if (toggleState == true)
 				{
+					
+					//yAngle = Mathf.MoveTowardsAngle (transform.eulerAngles.y, 180, 100 * Time.deltaTime);
+        			//transform.eulerAngles = Vector3( 0, yAngle, 0);
 				}
+				
+				
 				
 				if (GUI.Button( Rect ( 0, 105, 90, 90), "Imperium"))
 				{
@@ -117,7 +128,7 @@ function OnGUI () {
 				
 			// end the scrolling menu
 			GUI.EndScrollView();	
-			
+				
 		// We need to match all BeginGroup calls with an EndGroup
 		GUI.EndGroup ();
 		

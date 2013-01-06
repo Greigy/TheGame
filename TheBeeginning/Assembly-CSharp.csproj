@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F55221A7-0992-0688-05E0-8E08F4387301}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;UNITY_64;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\CoroutineManager.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\EventListener.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\Interpolation.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\ProximityManager.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\QualityRequirement.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\RandomGenerator.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\SGUpdateManager.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\SplineQ.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\SplineV.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\Tools.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\WorkQueue.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Internal\WorkerThread.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\ControlScheme.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\EventPlayAnimation.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\FaceCamera.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\ImprovedTrail.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\NetworkDebugger.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\NetworkInstantiate.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\NetworkManager.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\NetworkRigidbody.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\NetworkRigidbodySync.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\PerformanceMonitor.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\RealtimeCubemap.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\SGLagPosition.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\SGLagRotation.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\SGSpinTransform.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\ScrollDetailUV.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\Other\ScrollUV.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGAnchor.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGBorderedSprite.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGClickSound.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGInput.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGInputSaved.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGMouse.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGOrthoCamera.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGScreen.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGSendMessage.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGSendMessageInt.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGSetState.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGSpin.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGSprite.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGStateColor.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGStatePosition.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGStateRotation.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGTiledSprite.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Common\UI\SGWidget.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ApplyGravityWhileInside.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ArcadeMovement.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ChaseCamera.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ChaseTarget.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Condition.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ConditionalInstantiate.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\CopyCamera.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DamageReduction.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DamageShield.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DelayedTextInput.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DestroyIfNotOwned.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DestroyWhenEmittersFinish.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\DistantObjects.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Explosive.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\FaceTarget.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\FiredObject.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\GameFaction.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\GameUnit.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\HUDCamera.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\HUDStats.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\HealWhileInside.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\HealthBar.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\HeatSource.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\LightFlicker.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Missile.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\MissileLauncher.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\PlasmaBeam.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Player.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\PowerGenerator.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ProximityNearMiss.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ResetTransform.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\SampleOverTime.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\SetAngularVelocity.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\SetShipColors.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipCollisionReaction.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipDebug.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipExhibit.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipSpeed.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipThrusterEmitter.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipThrusterLight.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\ShipThrusterTrail.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Spaceship.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\SpaceshipController.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\TargetReticle.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\TrailController.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\Weapon.cs" />
+     <Compile Include="Assets\SGSK\Scripts\Game\WeaponLauncher.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGButtonHighlight.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGButtonHostGame.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGButtonJoinGame.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGFlicker.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGHealthBar.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGMouseDragIndicator.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGPlayerAim.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGPowerBar.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGProgressBar.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGTarget.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGTargetLock.cs" />
+     <Compile Include="Assets\SGSK\Scripts\UI\SGTiltCamera.cs" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SGSK\Models\Planet\Atmosphere.shader" />
+     <None Include="Assets\text\test.txt" />
+     <None Include="Assets\SGSK\Shaders\Text.shader" />
+     <None Include="Assets\SGSK\Models\Planet\Planet.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\SGSK\Models\Asteroid\Asteroid.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\SGSK\Models\Asteroid\Asteroid - Bump.shader" />
+     <None Include="Assets\SGSK\Misc\Distortion\DistortionTwo.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Mask.shader" />
+     <None Include="Assets\SGSK\Models\Planet\PlanetLow.shader" />
+     <None Include="Assets\SGSK\Models\Plasma Beam\Plasma Beam.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Transparent Tint.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\SGSK\Misc\Ship\Hidden - Ship Hull.shader" />
+     <None Include="Assets\SGSK\Misc\Distortion\DistortionOne.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\SGSK\Shaders\Spaceship.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\SGSK\ReadMe (Important!).txt" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\SGSK\Misc\Ship\Ship Hull.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{30F8EF24-DB99-8974-1C14-562176576BE7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{9D36A1FA-4623-4B78-7913-78B8B307054B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

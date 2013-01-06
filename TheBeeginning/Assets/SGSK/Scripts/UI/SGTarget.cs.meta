@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e6e8c92afb2a6a94aa46b30838d61487
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {fileID: 2800000, guid: 6d37918710929cb4f9121c9d804f6f5f, type: 3}
+  - arrowLeft: {fileID: 2800000, guid: c078ba77fadf4fa40b6533d893ec6083, type: 3}
+  - arrowRight: {fileID: 2800000, guid: cb89d81ef3dfe744f9e28795748cf61a, type: 3}
+  - arrowUp: {fileID: 2800000, guid: 5c5c34807a2c4c847b561c28e5756f3f, type: 3}
+  - arrowDown: {fileID: 2800000, guid: 8dc4271c000d88a4f87eb117e53d94ac, type: 3}
+  - arrowTL: {fileID: 2800000, guid: dd552c9d8ab89b0469e21f13532fff3f, type: 3}
+  - arrowTR: {fileID: 2800000, guid: ae2e919dfadbfa04bbc4ee6820167358, type: 3}
+  - arrowBL: {fileID: 2800000, guid: 573be94684b966a438f6632c4992804f, type: 3}
+  - arrowBR: {fileID: 2800000, guid: cacc09fb387352b47ac052895052ba99, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

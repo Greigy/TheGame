@@ -44,6 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SGSK\Scripts\Effects\AntialiasingAsPostEffect.js" />
+     <Compile Include="Assets\SGSK\Scripts\Effects\BloomAndLensFlares.js" />
+     <Compile Include="Assets\SGSK\Scripts\Effects\PostEffectsBase.js" />
      <Compile Include="Assets\Scripts\Enviroment\randomSkybox.js" />
      <Compile Include="Assets\Scripts\Main Menu\FloatingPlatform.js" />
      <Compile Include="Assets\Scripts\Main Menu\characterCreation.js" />
@@ -58,7 +61,37 @@
      <Compile Include="Assets\Scripts\shipBuilderMenu\shipBuilder_mainMenu.js" />
      <Compile Include="Assets\Scripts\shipBuilderMenu\shipBuilder_saveShip.js" />
      <Compile Include="Assets\Scripts\shipBuilderMenu\shipBuilder_upgradeShip.js" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SGSK\Models\Planet\Atmosphere.shader" />
      <None Include="Assets\text\test.txt" />
+     <None Include="Assets\SGSK\Shaders\Text.shader" />
+     <None Include="Assets\SGSK\Models\Planet\Planet.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\SGSK\Models\Asteroid\Asteroid.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\SGSK\Models\Asteroid\Asteroid - Bump.shader" />
+     <None Include="Assets\SGSK\Misc\Distortion\DistortionTwo.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Mask.shader" />
+     <None Include="Assets\SGSK\Models\Planet\PlanetLow.shader" />
+     <None Include="Assets\SGSK\Models\Plasma Beam\Plasma Beam.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Transparent Tint.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\SGSK\Misc\Ship\Hidden - Ship Hull.shader" />
+     <None Include="Assets\SGSK\Misc\Distortion\DistortionOne.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\SGSK\Shaders\Spaceship.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\SGSK\ReadMe (Important!).txt" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\SGSK\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\SGSK\Misc\Ship\Ship Hull.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SGSK\Scripts\Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
